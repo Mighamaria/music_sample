@@ -1,0 +1,49 @@
+#server:
+#  port: 9191
+#spring:
+#  application:
+#    name: API-GATEWAY
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: AUTH-SERVICE
+#          uri: lb://AUTH-SERVICE
+#          predicates:
+#            - Path=/auth/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: AUTH-SERVICE
+#                fallbackuri: forward:/authServiceFallBackMethod
+#        - id: ADMIN-SERVICE
+#          uri: lb://ADMIN--SERVICE
+#          predicates:
+#            - Path=/admin/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: ADMIN-SERVICE
+#                fallbackuri: forward:/adminServiceFallBackMethod
+#        - id: USER-SERVICE
+#          uri: lb://USER-SERVICE
+#          predicates:
+#            - Path=/user/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: USER-SERVICE
+#                fallbackuri: forward:/userServiceFallBackMethod
+#
+#hystrix:
+#  command:
+#    fallbackcmd:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 4000
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream

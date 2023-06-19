@@ -1,0 +1,32 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-right: 8px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  button {
+    padding: 8px 16px;
+    /* background-color: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%); */
+    /* background-color: linear-gradient(to right,  #f6d365 , #fda085); */
+    background-color: lightcoral ;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightsalmon ;
+     /* background-position: right center;  */
+     /* change the direction of the change here */ ;
+  }
+  
+ 

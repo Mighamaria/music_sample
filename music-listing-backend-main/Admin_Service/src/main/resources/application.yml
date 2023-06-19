@@ -1,0 +1,7 @@
+#server:
+#  port: 9002
+#spring:
+#  application:
+#    name: ADMIN-SERVICE
+##  zipkin:
+##    base-uri: http://127.0.01:9411/

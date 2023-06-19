@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.user-dashboard {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0 auto;
+    width: 800px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+  }
+  
+  .card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-header .genre-name,
+  .card-header .artist-name,
+  .card-header .language-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .music-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .music-list li {
+    margin-bottom: 5px;
+  }
+  
+  

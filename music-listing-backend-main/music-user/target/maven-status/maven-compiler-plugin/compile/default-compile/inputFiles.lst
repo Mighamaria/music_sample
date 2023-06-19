@@ -1,0 +1,12 @@
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\MusicUserApplication.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\model\Music.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\model\Rating.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\exception\GlobalExceptionHandler.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\exception\InvalidRatingException.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\dto\RatingDto.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\repository\RatingRepository.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\controller\UserController.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\service\UserService.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\repository\MusicRepository.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\dto\MusicDto.java
+D:\music-project\music-listing-demo-backend-main\music-user\src\main\java\com\ust\project\exception\MusicNotFoundException.java
